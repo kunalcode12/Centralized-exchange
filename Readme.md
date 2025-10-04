@@ -36,7 +36,7 @@ cd clob && cargo run
 cd clobv2/engine && cargo test
 ```
 
-## Architecture Philosophy
+## Architecture
 
 Each service is independent. You can scale them separately, deploy them on different machines, or even rewrite one without touching the others. The API service talks to PostgreSQL, the CLOB service keeps orders in memory for speed, and the trading engine focuses purely on matching logic.
 
