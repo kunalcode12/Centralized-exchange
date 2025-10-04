@@ -18,10 +18,9 @@ A modular cryptocurrency exchange built in Rust. Think of it as three separate s
 
 **Trading Engine** - The brain that matches buy and sell orders. Uses BTreeMap for fast price-time priority matching.
 
-## Why Rust?
+## Rust!!!
 
-This isn't just another exchange. The choice of Rust gives us memory safety without garbage collection, which is crucial for financial systems. No data races, no null pointer exceptions, and performance that rivals C++.
-
+Rust gives us memory safety without garbage collection, which is crucial for financial systems. No data races, no null pointer exceptions, and performance that rivals C++.
 The order matching engine uses BTreeMap for O(log n) operations and VecDeque for FIFO matching within price levels. Everything is thread-safe with Arc<Mutex<>> where needed.
 
 ## Getting Started
