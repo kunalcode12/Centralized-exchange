@@ -8,10 +8,8 @@ A modular cryptocurrency exchange built in Rust. Think of it as three separate s
 
 ## What's Inside
 
-```
 ![Flow Graph](./defi.jpg)
 
-```
 
 ## The Three Services
 
