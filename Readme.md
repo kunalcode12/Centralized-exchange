@@ -4,12 +4,11 @@ A modular cryptocurrency exchange built in Rust. Think of it as three separate s
 
 ## Exchange
 
-![Architecture](./image.png)
+![Architecture](./image1.png)
 
 ## What's Inside
 
 ![Flow Graph](./defi.jpg)
-
 
 ## The Three Services
 
