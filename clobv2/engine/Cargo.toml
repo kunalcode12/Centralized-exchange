@@ -1,0 +1,10 @@
+[package]
+name = "engine"
+version = "0.1.0"
+edition = "2025"
+
+[dependencies]
+rust_decimal = { workspace = true }
+common-types = {path = "../common-types"}
+rust_decimal_macros = "1.37.1"
+
