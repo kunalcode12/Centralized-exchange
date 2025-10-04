@@ -9,14 +9,8 @@ A modular cryptocurrency exchange built in Rust. Think of it as three separate s
 ## What's Inside
 
 ```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   API Service   │    │  CLOB Service   │    │ Trading Engine  │
-│  (User Auth)    │    │ (Order Book)    │    │   (Matching)    │
-│                 │    │                 │    │                 │
-│ • User accounts │    │ • Order storage │    │ • Trade matching│
-│ • Authentication│    │ • Depth queries │    │ • Event handling │
-│ • PostgreSQL    │    │ • Order CRUD    │    │ • Price levels  │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
+![Flow Graph](./defi.jpg)
+
 ```
 
 ## The Three Services
